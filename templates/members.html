@@ -1,0 +1,44 @@
+{% extends "home-base.html"%}
+{% block title %}About me{% endblock %}
+
+{% block head%}
+  {{ super() }}
+{% endblock%}
+
+{% block page_content%}
+  <!-- Page Content -->
+<link rel="stylesheet" type="text/css" href="/static/css/photo.css">
+  <div class="container">
+    <h1 class="mt-5"><i class="fa fa-user-circle" aria-hidden="true"></i> About Me</h1>
+    <p>This project is developed by:
+      <br><br>
+      <h2>
+      <div class="row" id="resize">
+        <div class="col-lg-4">
+          <img id="ruoyu" src="/static/img/ruoyu.jpeg"  class="img-fluid">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <a id="developer3" href="https://github.com/ruoyuq" data-toggle="tooltip" data-placement="top" title=":)" target="_blank">Ruoyu Qiu</a>
+        </div>
+      </div>
+      <div class="row">
+        <style>.description{font-size:60%}</style>
+        <div class="col-lg-4">
+          <p class="description">Senior, studying at the University of Delaware and majoring in MIS and accounting</p>
+        </div>
+      </div>
+    </h2>
+    </p>
+  </div>
+{% endblock%}
+
+{% block scripts%}
+  {{super()}}
+  <script>
+  $(document).ready(function () {
+    $('#developer').tooltip()
+  });
+  </script>
+{% endblock%}
