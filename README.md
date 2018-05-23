@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # **Shiny Bookstore**
 ### Group work for misy350 class
 #### Group Member:
@@ -29,3 +30,7 @@ Author id | Author Name |Introduction
 ----------|-------------|------------
 1|	Jane Austen|	Jane Austen was an English novelist known primarily for her six major novels, which interpret, critique and comment upon the British landed gentry at the end of the 18th century.	
 2	|J. K. Rowling	|Joanne Rowling, who writes under the pen names J. K. Rowling and Robert Galbraith, is a British novelist and screenwriter who wrote the Harry Potter fantasy series.
+=======
+# Misy350FinalProject
+This is my misy350 Final Project for bookbase!
+>>>>>>> 4c9a30f8d80f2f778554ae8ed4040a8fb403a094
